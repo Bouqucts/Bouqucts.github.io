@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/okaluera?styles=165574');
+
+
+body{
+  background-color:#121823
+
+}
+
+/* Navigasi Bar */
+header{
+  display: flex;
+  justify-content: center;
+}
+
+.Nav {
+  padding-top: 10px;
+  float: right;
+  color: #ffffff;
+  display: flex;
+  width: 1860px;
+  max-width: 1860px;
+  min-width: 768px;
+}
+
+.Nav div a {
+  padding-right: 20px;
+  font-size: 20px;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.Bouqucts {
+  margin: 0vh auto 0vh 2vh;
+  font-size: 20px;
+  font-family: "Montserrat Alternates", sans-serif;
+  color: white;
+}
+/* Navigasi Bar End */
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+  position: relative;
+  float: right;
+  top: 100px;
+  width: 1860px;
+  max-width: 1860px;
+  min-width: 768px;
+}
+
+.Kotak{
+  z-index: -1;
+  position: relative;
+  left : 630px;
+  top: 10px;
+  width: 1280px;
+  height: 700px;
+  background-color: yellow;
+  border: none;
+}
+
+.fotoaing{
+  position: relative;
+  min-width: 500px;
+  max-width: 650px;
+  width: 650px;
+  left: -50px;
+  top: -265px;
+}
+
+.namasaya {
+  display: flex;
+  top: -130px;
+  position: absolute;
+  left: 120px;
+  color: aliceblue;
+  font-family: 'Okaluera', sans-serif;
+  font-size: 150px;
+}
+
+.garis {
+  position: absolute;
+  left: 120px;
+  top: 155px;
+  border-bottom:3px solid white;
+  border-radius: 30px;
+  width: 205px;
+}
+
+
+.julukan{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  float: left;
+  position: absolute;
+  top: 190px;
+  left: 120px;
+  font-family: 'Okaluera', sans-serif;
+  font-size: 60px;
+}
+
+.dan {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.photographer {
+  position: absolute;
+  top: 50px;
+  left: 110px;
+}
